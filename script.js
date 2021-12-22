@@ -2,6 +2,9 @@ const audioEl = document.getElementById("audio");
 const button = document.getElementById("button");
 let joke = '';
 
+//voiceRSS docs
+//https://rapidapi.com/voicerss/api/text-to-speech-1/
+
 var VoiceRSS = {
   speech: function (e) {
     this._validate(e), this._request(e);
